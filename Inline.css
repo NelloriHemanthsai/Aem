@@ -1,0 +1,52 @@
+/* h1 {
+  color: black;
+  background-color: aqua;
+}
+
+#nellori {
+  color: aquamarine;
+  background: blue;
+}
+
+div > p {
+  background-color: blanchedalmond;
+}
+
+h3 p {
+  background-color: yellow;
+}
+
+h2 + h3 + h4 {
+  background-color: violet;
+}
+
+h2 ~ h3 {
+  background-color: turquoise;
+} */
+
+h1::first-letter {
+  background: aqua;
+  text-transform: lowercase;
+}
+
+#he::first-line {
+  font-size: 30px;
+  color: yellow;
+}
+
+.re::before {
+  content: "hey ";
+  font-size: 20px;
+  color: blue;
+}
+
+.er::after {
+  content: "how are you ";
+  font-size: 20px;
+  color: rgb(42, 133, 93);
+}
+
+.kl::selection {
+  background-color: black;
+  color: rgb(206, 35, 35);
+}
